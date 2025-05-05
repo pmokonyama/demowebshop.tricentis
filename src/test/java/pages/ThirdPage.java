@@ -12,7 +12,7 @@ public class ThirdPage {
     WebDriverWait wait;
 
 
-    By buildCheapComputer = By.xpath("//a[contains(.,'Build your own cheap computer')]");
+    By buildCheapComputer = By.xpath("//*[.='Build your own cheap computer']/parent::h2/parent::div//div[@class='add-info']//div[@class='buttons']//input");
 
     public ThirdPage(WebDriver driver) {
         this.driver = driver;
