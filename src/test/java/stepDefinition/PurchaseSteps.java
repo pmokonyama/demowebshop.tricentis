@@ -21,6 +21,7 @@ public class PurchaseSteps {
     SecondPage computers;
     ThirdPage desktop;
 
+// Test change to trigger Jenkins build
 
     @Given("the user is on login page")
     public void login_page() {
